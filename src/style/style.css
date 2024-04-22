@@ -12,16 +12,34 @@ h1 {
   text-align: center;
 }
 
-h2{
-  font-size: 35em;
+
+  
+h2 {
+  font-size: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  margin: 4rem 0;
+  color: #273aaa;
+  text-align: center;
 }
+
 
 p {
   font-size: 2rem;
   width: 90vw;
   max-width: 800px;
   margin: 4rem 0;
-  color: #1d1d1b;
+  color: #273aaa;
+  text-align: center;
+}
+
+
+#lovered{
+  font-size: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  margin: 4rem 0;
+  color: #fc4d5c;
   text-align: center;
 }
 
@@ -95,7 +113,20 @@ header {
 }
 
 .item-d {
-  background-color: #d1ecef;
+  background-color:  #f7c7d9;
+  
+}
+
+#rosa {
+  background-color:#f7c7d9;
+  font-size: 2rem;
+  width: 100vw;
+  margin-top: -5px;
+  max-width: 100%;
+  color: #fff5eb;
+  padding: 70px;
+  text-align: center;
+
 }
 
 video {
