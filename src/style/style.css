@@ -1,0 +1,25 @@
+body {
+    background-color: #fff5eb;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+    width: 90vw;
+    max-width: 800px;
+    margin: 4rem 0;
+    color: #fc4d5c;
+    text-align: center;
+  }
+  
+  h2{
+    font-size: 35em;
+}
+
+  p {
+    font-size: 2rem;
+    width: 90vw;
+    max-width: 800px;
+    margin: 4rem 0;
+    color: #1d1d1b;
+  }
