@@ -11,8 +11,15 @@ import Footer from "../components/Footer.astro";
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
+  <header>
+    <p id="headertext">Chat med oss i dag fra 19:00 - 23:00</p>
+  </header>
   <body>
-    <h1>overskrift animasjon her</h1>
+    <div id="video_container">
+      <video width="640" height="360" autoplay loop muted playsinline>
+        <source src="video/GirlTalklanding page_1.mp4" type="video/mp4" />
+      </video>
+    </div>
     <main class="container">
       <div class="item item-a">
         <p>
@@ -23,7 +30,11 @@ import Footer from "../components/Footer.astro";
           følelsesløshed og aggression. Hendes hjerte dunkede hurtigere, og en
           knugende følelse af forvirring og vrede greb fat i hende.
         </p>
-        <h1>En Venskabelig Tsunami, animasjon?</h1>
+        <div id="video_container">
+          <video width="640" height="360" autoplay loop muted playsinline>
+            <source src="video/EnVenskabeligTsunami.mp4" type="video/mp4" />
+          </video>
+        </div>
         <p>
           Det hele startede en almindelig tirsdag eftermiddag, da Sophie modtog
           en enkelt besked fra Julia: "Vi skal tale." Ordene flimrede på skærmen
@@ -32,7 +43,11 @@ import Footer from "../components/Footer.astro";
           resigneret eftertanke. "Men jeg var ikke forberedt på, at det hele
           ville kollapse over beskeder på min telefon."
         </p>
-        <h1>Emojiernes Taletid</h1>
+        <div id="video_container">
+          <video width="640" height="360" autoplay loop muted playsinline>
+            <source src="video/EmojiernesTaletid.mp4" type="video/mp4" />
+          </video>
+        </div>
         <p>
           Det, der fulgte, var en kaskade af passiv-aggressive emojier,
           punktummer og sjuskede stavefejl, der skabte en mur af uforståelige
@@ -50,7 +65,11 @@ import Footer from "../components/Footer.astro";
           virkede afskårne, hvilket efterlod Sophie med en følelse af forladthed
           og forvirring.
         </p>
-        <h1>Emojiernes Taletid</h1>
+        <div id="video_container">
+          <video width="640" height="360" autoplay loop muted playsinline>
+            <source src="video/HjerteVeninder.mp4" type="video/mp4" />
+          </video>
+        </div>
         <p>
           For Sophie og Julia var venskabet mere end bare en almindelig
           forbindelse. De var hjerteveninder, fortrolige på en måde, der kun få
@@ -72,7 +91,11 @@ import Footer from "../components/Footer.astro";
         </p>
       </div>
       <div class="item item-b">
-        <h1>Et Uundgåelig Sammenstød</h1>
+        <div id="video_container">
+          <video width="640" height="360" autoplay loop muted playsinline>
+            <source src="video/EtUundgåeligSammenstød.mp4" type="video/mp4" />
+          </video>
+        </div>
         <p>
           Efter flere dage med anspændt tavshed mellem dem blev Sophie og Julia
           endelig enige om at mødes ansigt til ansigt for at tale tingene
@@ -86,54 +109,97 @@ import Footer from "../components/Footer.astro";
           situationen føltes surrealistisk, hvilket kun forstærkede Sophies
           smerte og frustration.
         </p>
-        <h1>GirlTalks Lys i Mørket</h1>
-        <p>
-          Midt i Sophie's vildrede og sorg fandt hun en uventet redningsbøje i
-          GirlTalk's chatrådgivning. Med hjælp fra deres ungerådgivere kunne
-          Sophie sortere sine følelser, udtrykke sin smerte og begynde sin rejse
-          mod heling og forsoning. "At have nogen at tale med, der virkelig
-          lyttede og forstod mig, gjorde hele forskellen," siger Sophie med en
-          taknemmelig stemme. Sophies erfaring med GirlTalk hjalp hende med at
-          forstå, at hun ikke var alene i sin smerte, og at der var håb om
-          heling og vækst, selv efter et smertefuldt opbrud.
-        </p>
-        <h1>Erkendelse af Forandring og Vækst</h1>
-        <p>
-          Sophie fandt sig selv dybt fordybet i sine tanker, mens hun
-          reflekterede over en idé, hun engang havde stødt på: at mennesker
-          ændrer sig, og for at vokse, skal de være komfortable med de
-          relationer, de opbygger omkring sig. Det virkede pludselig så relevant
-          for deres situation. Sophie indså, at Julia havde gennemgået
-          forandringer, og at deres venskab ikke længere var foreneligt med den
-          person, Julia ønskede at være. Selvom det var smertefuldt at
-          acceptere, at de var vokset fra hinanden, fandt Sophie alligevel en
-          form for trøst i tanken om, at det var en naturlig del af livet. Hun
-          følte på en eller anden måde, at dette var en del af deres personlige
-          rejse, hvor de begge skulle finde deres egen vej.
-        </p>
+        <div class="item item-b">
+          <div id="video_container">
+            <video width="640" height="360" autoplay loop muted playsinline>
+              <source src="video/GirlTalksLysiMørket.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p>
+            Midt i Sophie's vildrede og sorg fandt hun en uventet redningsbøje i
+            GirlTalk's chatrådgivning. Med hjælp fra deres ungerådgivere kunne
+            Sophie sortere sine følelser, udtrykke sin smerte og begynde sin
+            rejse mod heling og forsoning. "At have nogen at tale med, der
+            virkelig lyttede og forstod mig, gjorde hele forskellen," siger
+            Sophie med en taknemmelig stemme. Sophies erfaring med GirlTalk
+            hjalp hende med at forstå, at hun ikke var alene i sin smerte, og at
+            der var håb om heling og vækst, selv efter et smertefuldt opbrud.
+          </p>
+          <div id="video_container">
+            <video width="640" height="360" autoplay loop muted playsinline>
+              <source src="video/ForandringogVækst.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p>
+            Sophie fandt sig selv dybt fordybet i sine tanker, mens hun
+            reflekterede over en idé, hun engang havde stødt på: at mennesker
+            ændrer sig, og for at vokse, skal de være komfortable med de
+            relationer, de opbygger omkring sig. Det virkede pludselig så
+            relevant for deres situation. Sophie indså, at Julia havde
+            gennemgået forandringer, og at deres venskab ikke længere var
+            foreneligt med den person, Julia ønskede at være. Selvom det var
+            smertefuldt at acceptere, at de var vokset fra hinanden, fandt
+            Sophie alligevel en form for trøst i tanken om, at det var en
+            naturlig del af livet. Hun følte på en eller anden måde, at dette
+            var en del af deres personlige rejse, hvor de begge skulle finde
+            deres egen vej.
+          </p>
+        </div>
+        <div class="item item-c">
+          <p>
+            Selvom Sophie stadig tænker meget på det knuste venskab med Julia,
+            har hun også opdaget en form for styrke og visdom i det hele.
+            "Venskaber kan være smukke og skrøbelige på samme tid," reflekterer
+            Sophie med en blanding af vemod og håb. "Men selv når de går i
+            stykker, er der altid mulighed for at finde nye forbindelser og
+            opdage en ny del af sig selv." Sophies rejse gennem venskabets
+            revner er et bevis på den transformative kraft af støtte, selv i de
+            mørkeste øjeblikke. GirlTalk's chatrådgivning er et skinnende
+            eksempel på det lys, der kan skinne selv i de dybeste afgrunde af et
+            venne break-up.
+          </p>
+        </div>
+        <div class="item item-d">
+          <p>video</p>
+        </div>
       </div>
-      <div class="item item-c">
-        <p>
-          Selvom Sophie stadig tænker meget på det knuste venskab med Julia, har
-          hun også opdaget en form for styrke og visdom i det hele. "Venskaber
-          kan være smukke og skrøbelige på samme tid," reflekterer Sophie med en
-          blanding af vemod og håb. "Men selv når de går i stykker, er der altid
-          mulighed for at finde nye forbindelser og opdage en ny del af sig
-          selv." Sophies rejse gennem venskabets revner er et bevis på den
-          transformative kraft af støtte, selv i de mørkeste øjeblikke.
-          GirlTalk's chatrådgivning er et skinnende eksempel på det lys, der kan
-          skinne selv i de dybeste afgrunde af et venne break-up.
-        </p>
-      </div>
-      <div class="item item-d">
-        <p>video</p>
+      <div>
+        <h1>Girltalk</h1>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </main>
+    <script>
+      //find boxer
+      const boxes = document.querySelectorAll(".item");
+
+      //start function ved scroll
+      window.addEventListener("scroll", fadeboxes);
+      //funktion til scroll
+      function fadeboxes() {
+        //console.log("virker", boxes);
+        const triggerBottom = window.innerHeight - 200;
+
+        //find de enkelte boxes
+        boxes.forEach((box) => {
+          const boxTop = box.getBoundingClientRect().top;
+          const boxBottom = box.getBoundingClientRect().bottom;
+          const boxHeight = box.getBoundingClientRect().height;
+          console.log({ box, boxTop });
+          //hvis toppen kommer forbi bunden af vinduet
+          if (boxTop < triggerBottom && boxTop > -boxHeight) {
+            //tilføj klasse til fade in
+            box.classList.add("fade-in");
+          }
+          if (boxBottom < 100 || boxTop > triggerBottom) {
+            box.classList.remove("fade-in");
+            //box.style.opacity = 0.4;
+          }
+        });
+      }
+    </script>
   </body>
-  <div>
-    <h1>Girltalk</h1>
-    <footer>
-      <Footer />
-    </footer>
-  </div>
+
+
 </html>
