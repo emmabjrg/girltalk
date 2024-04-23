@@ -1,0 +1,148 @@
+body {
+  background-color: #fff5eb;
+}
+
+
+h1 {
+  font-size: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  margin: 4rem 0;
+  color: #fc4d5c;
+  text-align: center;
+}
+
+
+  
+h2 {
+  font-size: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  margin: 4rem 0;
+  color: #273aaa;
+  text-align: center;
+}
+
+
+p {
+  font-size: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  margin: 4rem 0;
+  color: #273aaa;
+  text-align: center;
+}
+
+
+#lovered{
+  font-size: 2rem;
+  width: 90vw;
+  max-width: 800px;
+  margin: 4rem 0;
+  color: #fc4d5c;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  border: 1px solid #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  opacity: 0.2;
+  transition: opacity 3s;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+header {
+  background-color: #273aaa;
+  padding: 1px;
+  text-align: center;
+}
+
+#headertext {
+  color: #f7c7d9;
+}
+
+#blaa {
+  background-color: #273aaa;
+  font-size: 2rem;
+  width: 100vw;
+  margin-top: -5px;
+  max-width: 100%;
+  color: #fff5eb;
+  padding: 70px;
+
+}
+
+.item-a {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.item-b {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.item-c {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.item-d {
+  background-color:  #f7c7d9;
+  
+}
+
+#rosa {
+  background-color:#f7c7d9;
+  font-size: 2rem;
+  width: 100vw;
+  margin-top: -5px;
+  max-width: 100%;
+  color: #fff5eb;
+  padding: 70px;
+  text-align: center;
+
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: cover;
+  padding: 0%;
+  margin: 0%;
+}
+
+#video_container{
+  width: 100%;
+  height: auto;
+  display: cover;
+}
+
+
+@media screen and (min-width: 768px) {
+}
