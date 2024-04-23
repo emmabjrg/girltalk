@@ -13,6 +13,10 @@
   src: url(/public/font/Archivo_Expanded-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: Archivo Semibold;
+  src: url(/public/font/Archivo-SemiBold.ttf);
+}
 
 body {
   background-color: #fff5eb;
