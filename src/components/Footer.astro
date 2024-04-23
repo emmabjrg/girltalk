@@ -2,37 +2,82 @@
 
 ---
 
-<h1>GirlTalk</h1>
 <article id="footergrid">
   <div id="grid-1-1-1-1">
-    <p>Chattens åbingstider</p>
-    <p>For unge</p>
-    <p>Om Girltalk</p>
-    <p>Find os her</p>
+    <div>
+      <h3>Chattens åbingstider</h3>
+      <dl>
+        <dt>Man - Tors</dt>
+        <dd>18:30 - 24:00</dd>
+        <dt>Fre - Lør</dt>
+        <dd>19:00 - 23:00</dd>
+        <dt>Søndag</dt>
+        <dd>18:30 - 24:00</dd>
+      </dl>
+      <div class="no_grid">
+        <p class="markeret">Chat med os</p>
+        <p class="markeret">Send en sms</p>
+      </div>
+    </div>
+    <div>
+      <h4>For unge</h4>
+    </div>
+    <div><h4>Om Girltalk</h4></div>
+    <div><h4>Find os her</h4></div>
   </div>
-  <div>
-    <style>
-      h1 {
-        font-size: 2rem;
-        margin: 4rem 0;
-        color: #fc4d5c;
-      }
+  <p class="sms">
+    Du kan altid sende en sms til os. Vi svarer på din besked i chattens
+    åbningstid.
+  </p>
+  <style>
+    .sms {
+      width: 500px;
+      margin-top: 4px;
+    }
+    .markeret {
+      font-size: 18px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    dl {
+      font-size: 18px;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    dt {
+      margin-top: 8px;
+      font-weight: bold;
+    }
+    h3 {
+      font-family: Archivo SemiBold;
+      font-size: 2rem;
+      color: #1b1b1b;
+    }
+    h4 {
+      font-family: Archivo SemiBold;
+      font-size: 1.65rem;
+      color: #1b1b1b;
+    }
+    p {
+      font-size: 1rem;
+      width: 200px;
+      color: #1b1b1b;
+      padding: 0;
+      margin: 0;
+      text-align: start;
+    }
 
-      p {
-        font-size: 12px;
-      }
+    #footergrid {
+      text-align: start;
+      display: grid;
+    }
 
-      #footergrid {
-        text-align: start;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-
-      #grid-1-1-1-1 {
-        display: grid;
-        grid-template-columns: 3fr 1fr 1fr 1fr;
-        gap: 0em;
-      }
-    </style>
-  </div>
+    #grid-1-1-1-1 {
+      display: grid;
+      grid-template-columns: 3fr 1fr 1fr 1fr;
+      gap: 2em;
+      justify-content: space-between;
+    }
+  </style>
 </article>

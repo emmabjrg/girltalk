@@ -152,6 +152,12 @@ video {
   display: cover;
 }
 
+footer {
+  background-color: white;
+  padding: 10px;
+  padding-top: 40px;
+}
+
 
 @media screen and (min-width: 768px) {
 }
