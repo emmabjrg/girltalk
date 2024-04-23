@@ -39,13 +39,14 @@ p {
   font-size: 1.5rem;
   margin: 4rem 0;
   color: #273aaa;
-  text-align: center;
+  text-align: start;
 }
 
 .skytekst {
   line-height: 160%;
   width: 80vw;
   max-width: 800px;
+  
 }
 
 .toptekst {
@@ -53,26 +54,33 @@ p {
   width: 80vw;
   max-width: 800px;
   margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: start;
 }
+
 
 .hoppetekst {
   line-height: 160%;
   margin-top: 200px;
-  animation: textgrowth alternate;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
 }
+
+.hoppetekst p {
+  animation: textgrowth 1s ease-in-out infinite alternate;
+}
+
 
 @keyframes textgrowth {
    0% {
    font-size: 23px;
    }
    100% {
-   font-size: 26px;
+   font-size: 24px;
    }
-}
+  }
 
+
+
+/*
 .lovered { 
   font-size: 1.5rem;
   line-height: 160%;
@@ -81,6 +89,19 @@ p {
   margin: 4rem 0;
   color: #fc4d5c;
   text-align: center;
+}
+*/
+
+.lovered {
+  font-size: 1.5rem;
+  line-height: 160%;
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 4rem; 
+  margin-bottom: 4rem; 
+  color: #fc4d5c;
+  text-align: start;
 }
 
 *{
@@ -125,6 +146,7 @@ header {
   max-width: 100%;
   color: #fff5eb;
   padding: 70px;
+  text-align: left;
 }
 
 
@@ -145,7 +167,6 @@ header {
 }
 
 
-/*
 
 .item-c {
   background-repeat: no-repeat;
@@ -154,7 +175,6 @@ header {
   background-attachment: fixed;
   text-align: center;
 }
-*/
 
 #chatsec {
   background-color:#f7c7d9;
@@ -163,7 +183,7 @@ header {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Horizontally center the content */
+  justify-content: center; 
   align-items: center;
 }
 
@@ -172,6 +192,7 @@ header {
   margin: 30px;
   width: 630px;
   line-height: 40px;
+  text-align: center;
 }
 
 video {

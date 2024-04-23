@@ -18,20 +18,20 @@ import Nav from "../components/Nav.astro";
   </header>
   <body>
     <Nav />
-    <div id="video_container">
-      <video
-        id="topvideo"
-        width="640"
-        height="360"
-        autoplay
-        loop
-        muted
-        playsinline
-      >
-        <source src="video/landingpage-video.mp4" type="video/mp4" />
-      </video>
-    </div>
     <main class="container">
+      <div id="video_container">
+        <video
+          id="topvideo"
+          width="640"
+          height="360"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
+          <source src="video/landingpage-video.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div class="item item-a">
         <p class="toptekst">
           For 17-årige Sophie var venskabet med hendes bedste veninde, Julia,
@@ -40,51 +40,50 @@ import Nav from "../components/Nav.astro";
           da Sophie åbnede sin telefon og stødte på en beskedtråd fyldt med
           følelsesløshed og aggression.
         </p>
-        <p class="hoppetekst">
-          Hendes hjerte dunkede hurtigere, og en knugende følelse af forvirring
-          og vrede greb fat i hende.
-        </p>
-        <div id="video_container">
-          <video width="640" height="360" autoplay loop muted playsinline>
-            <source
-              src="video/EnVenskabeligTsunami-video.mp4"
-              type="video/mp4"
-            />
-          </video>
+        <div class="hoppetekst">
+          <p>
+            Hendes hjerte dunkede hurtigere, og en knugende følelse af
+            forvirring og vrede greb fat i hende.
+          </p>
         </div>
-        <div id="blaa">
-          Det hele startede en almindelig tirsdag eftermiddag, da Sophie modtog
-          en enkelt besked fra Julia: "Vi skal tale." Ordene flimrede på skærmen
-          som en advarsel om den venskabelige tsunami, der var på vej. "Jeg
-          vidste med det samme, at noget var galt," mindes Sophie med en tone af
-          resigneret eftertanke. "Men jeg var ikke forberedt på, at det hele
-          ville kollapse over beskeder på min telefon."
-        </div>
-        <div id="video_container">
-          <video width="640" height="360" autoplay loop muted playsinline>
-            <source src="video/EmojiernesTaletid.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <p class="lovered">
-          Det, der fulgte, var en kaskade af passiv-aggressive emojier,
-          punktummer og sjuskede stavefejl, der skabte en mur af uforståelige
-          følelser og uklar kommunikation. Sophie stirrede på skærmen med en
-          blanding af frustration og fortvivlelse. "Det var som at forsøge at
-          læse teblade i en tåget kop," siger Sophie med et nervøst grin. "Jeg
-          vidste ikke, om jeg skulle grine eller græde.".
-        </p>
-        <p class="lovered">
-          I løbet af den kaotiske udveksling af beskeder blev gamle skænderier
-          og skjulte frustrationer pludselig luftet ud i det åbne. "Det var som
-          om, at alt, hvad der havde hobet sig op mellem os, eksploderede på én
-          gang," forklarer Sophie med en rysten i stemmen. "Ordene fløj frem og
-          tilbage som giftige pile, og jeg følte mig fuldstændig overvældet."
-          Sophie indså, at der var dybere problemer mellem dem end blot den
-          øjeblikkelige uenighed. Julia virkede utilgængelig, og hendes følelser
-          virkede afskårne, hvilket efterlod Sophie med en følelse af forladthed
-          og forvirring.
-        </p>
       </div>
+      <div id="video_container">
+        <video width="640" height="360" autoplay loop muted playsinline>
+          <source src="video/EnVenskabeligTsunami-video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div id="blaa">
+        Det hele startede en almindelig tirsdag eftermiddag, da Sophie modtog en
+        enkelt besked fra Julia: "Vi skal tale." Ordene flimrede på skærmen som
+        en advarsel om den venskabelige tsunami, der var på vej. "Jeg vidste med
+        det samme, at noget var galt," mindes Sophie med en tone af resigneret
+        eftertanke. "Men jeg var ikke forberedt på, at det hele ville kollapse
+        over beskeder på min telefon."
+      </div>
+      <div id="video_container">
+        <video width="640" height="360" autoplay loop muted playsinline>
+          <source src="video/EmojiernesTaletid.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <p class="lovered">
+        Det, der fulgte, var en kaskade af passiv-aggressive emojier, punktummer
+        og sjuskede stavefejl, der skabte en mur af uforståelige følelser og
+        uklar kommunikation. Sophie stirrede på skærmen med en blanding af
+        frustration og fortvivlelse. "Det var som at forsøge at læse teblade i
+        en tåget kop," siger Sophie med et nervøst grin. "Jeg vidste ikke, om
+        jeg skulle grine eller græde.".
+      </p>
+      <p class="lovered">
+        I løbet af den kaotiske udveksling af beskeder blev gamle skænderier og
+        skjulte frustrationer pludselig luftet ud i det åbne. "Det var som om,
+        at alt, hvad der havde hobet sig op mellem os, eksploderede på én gang,"
+        forklarer Sophie med en rysten i stemmen. "Ordene fløj frem og tilbage
+        som giftige pile, og jeg følte mig fuldstændig overvældet." Sophie
+        indså, at der var dybere problemer mellem dem end blot den øjeblikkelige
+        uenighed. Julia virkede utilgængelig, og hendes følelser virkede
+        afskårne, hvilket efterlod Sophie med en følelse af forladthed og
+        forvirring.
+      </p>
       <div id="video_container">
         <video width="640" height="360" autoplay loop muted playsinline>
           <source src="video/HjerteVeninder.mp4" type="video/mp4" />
@@ -201,37 +200,37 @@ import Nav from "../components/Nav.astro";
     <footer>
       <Footer />
     </footer>
+
+    <script>
+      //find boxer
+      const boxes = document.querySelectorAll(".item");
+
+      //start function ved scroll
+      window.addEventListener("scroll", fadeboxes);
+      //funktion til scroll
+      function fadeboxes() {
+        //console.log("virker", boxes);
+        const triggerBottom = window.innerHeight - 200;
+
+        //find de enkelte boxes
+        boxes.forEach((box) => {
+          const boxTop = box.getBoundingClientRect().top;
+          const boxBottom = box.getBoundingClientRect().bottom;
+          const boxHeight = box.getBoundingClientRect().height;
+          console.log({ box, boxTop });
+          //hvis toppen kommer forbi bunden af vinduet
+          if (boxTop < triggerBottom && boxTop > -boxHeight) {
+            //tilføj klasse til fade in
+            box.classList.add("fade-in");
+          }
+          if (boxBottom < 100 || boxTop > triggerBottom) {
+            box.classList.remove("fade-in");
+            //box.style.opacity = 0.4;
+          }
+        });
+      }
+    </script>
   </body>
-
-  <script>
-    //find boxer
-    const boxes = document.querySelectorAll(".item");
-
-    //start function ved scroll
-    window.addEventListener("scroll", fadeboxes);
-    //funktion til scroll
-    function fadeboxes() {
-      //console.log("virker", boxes);
-      const triggerBottom = window.innerHeight - 200;
-
-      //find de enkelte boxes
-      boxes.forEach((box) => {
-        const boxTop = box.getBoundingClientRect().top;
-        const boxBottom = box.getBoundingClientRect().bottom;
-        const boxHeight = box.getBoundingClientRect().height;
-        console.log({ box, boxTop });
-        //hvis toppen kommer forbi bunden af vinduet
-        if (boxTop < triggerBottom && boxTop > -boxHeight) {
-          //tilføj klasse til fade in
-          box.classList.add("fade-in");
-        }
-        if (boxBottom < 100 || boxTop > triggerBottom) {
-          box.classList.remove("fade-in");
-          //box.style.opacity = 0.4;
-        }
-      });
-    }
-  </script>
 
 
 </html>
