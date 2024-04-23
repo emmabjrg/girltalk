@@ -1,7 +1,23 @@
-body {
-  background-color: #fff5eb;
+@font-face {
+  font-family: Archivo SemiCon;
+  src: url(/public/font/Archivo_SemiCondensed-Regular.ttf);
 }
 
+@font-face {
+  font-family: Archivo Exp Med ;
+  src: url(/public/font/Archivo_Expanded-Medium.ttf);
+}
+
+@font-face {
+  font-family: Archivo Exp SemiBold;
+  src: url(/public/font/Archivo_Expanded-SemiBold.ttf);
+}
+
+
+body {
+  background-color: #fff5eb;
+  font-family: Archivo SemiCon;
+}
 
 h1 {
   font-size: 2rem;
