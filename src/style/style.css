@@ -63,7 +63,6 @@ p {
 }
 
 .item {
-  border: 1px solid #666;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,7 +71,6 @@ p {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
   opacity: 0.2;
   transition: opacity 3s;
 }
@@ -157,10 +155,19 @@ video {
   display: cover;
 }
 
+#topvideo {
+  width: 100%;
+  margin-left: 0;
+}
+
 footer {
   background-color: white;
   padding: 35px;
   padding-top: 40px;
+}
+
+.pinkbagg {
+  background-color: #F4DCE6;
 }
 
 
