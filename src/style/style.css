@@ -18,6 +18,11 @@
   src: url(/public/font/Archivo-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: Archivo;
+  src: url(/public/font/Archivo-Regular.ttf);
+}
+
 body {
   background-color: #fff5eb;
   font-family: Archivo SemiCon;
