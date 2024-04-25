@@ -153,13 +153,14 @@ p {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  opacity: 1;
   transition: opacity 3s;
 }
 
 .fade-in {
   opacity: 1;
 }
-*/
+
 header {
   background-color: #273aaa;
   padding: 1px;
