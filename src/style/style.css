@@ -36,17 +36,29 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 4rem 0;
   color: #273aaa;
   text-align: start;
 }
 
 .skytekst {
+  font-size: 1.2rem;
   line-height: 160%;
   width: 80vw;
   max-width: 800px;
-  
+  margin: auto;
+  margin-top: 4rem; 
+  margin-bottom: 1rem;
+}
+
+.skytekst_1 {
+  font-size: 1.2rem;
+  line-height: 160%;
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 4rem; 
 }
 
 .toptekst {
@@ -54,8 +66,8 @@ p {
   width: 80vw;
   max-width: 800px;
   margin-top: 200px;
-  margin-bottom: 200px;
-  text-align: start;
+  margin-bottom: 150px;
+  text-align: center;
 }
 
 
@@ -93,13 +105,36 @@ p {
 */
 
 .lovered {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 160%;
   width: 80vw;
   max-width: 800px;
   margin: auto;
   margin-top: 4rem; 
+  margin-bottom: 1rem;
+  color: #fc4d5c;
+  text-align: start;
+}
+
+.lovered_1 {
+  font-size: 1.2rem;
+  line-height: 160%;
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
   margin-bottom: 4rem; 
+  color: #fc4d5c;
+  text-align: start;
+}
+
+.lovered_2 {
+  font-size: 1.2rem;
+  line-height: 160%;
+  width: 80vw;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 4rem; 
+  margin-bottom: 7rem;
   color: #fc4d5c;
   text-align: start;
 }
@@ -137,16 +172,20 @@ header {
 }
 
 #blaa {
-  font-family: Archivo Semibold;
-  background-color: #2F3DA4;
-  font-size: 1.5rem;
+  font-family: Archivo;
+  background-color: #3440ad;
+  font-size: 1.3rem;
   line-height: 160%;
   width: 100vw;
   margin-top: -5px;
+  margin-bottom: -5px;
   max-width: 100%;
   color: #fff5eb;
-  padding: 70px;
-  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
 }
 
 
@@ -234,7 +273,7 @@ footer {
 }
 
 .sky {
-  margin: 0;
+  margin: -5px;
   padding: 0;
 }
 
@@ -257,5 +296,3 @@ footer {
 .chatknap:hover {
   background-image: url(/public/img/chatknaphover.svg);
 }
-
-
